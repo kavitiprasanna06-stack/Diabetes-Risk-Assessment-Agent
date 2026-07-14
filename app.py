@@ -7,7 +7,7 @@ with open("diabetes_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Load Scaler
-with open("scaler.pkl", "rb") as file:
+with open("daibetes_model.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 st.set_page_config(
